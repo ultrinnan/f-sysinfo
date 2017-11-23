@@ -41,6 +41,7 @@ function fsi_dashboard_widget(){
 		echo '<b>OS detailed:</b> ' . $output[0] . '<br>';
 	}
 	echo '<b>Server details:</b> ' . php_uname() . '<br>';
+	echo '<b>Server Software:</b> ' .  $_SERVER['SERVER_SOFTWARE'] . '<br>';
 	echo '<b>Operated by server user:</b> ' . get_current_user() . '<br>';
 	echo '<hr>';
 	echo '<b>Loaded PHP extensions (sorted):</b><br>';
